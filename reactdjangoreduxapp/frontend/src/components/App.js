@@ -2,8 +2,8 @@
  * KYIV MEDIA 25.11.2019
 */
 import ReactDom from 'react-dom';
-
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Header from './layout/Header';
 
 export default class App extends Component {
     constructor(props) {
@@ -16,7 +16,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <h1>React App</h1>
+            <Header />
         )
     }
 }
