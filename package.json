@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development ./reactdjangoreduxapp/frontend/src/index.js --output ./reactdjangoreduxapp/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./reactdjangoreduxapp/frontend/src/index.js  --output ./reactdjangoreduxapp/frontend/static/frontend/main.js"
   },
   "keywords": [],
   "author": "KYIV MEDIA",
