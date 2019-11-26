@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./reactdjangoreduxapp/frontend/src/index.js --output ./reactdjangoreduxapp/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./reactdjangoreduxapp/frontend/src/index.js --output ./reactdjangoreduxapp/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./reactdjangoreduxapp/frontend/src/index.js  --output ./reactdjangoreduxapp/frontend/static/frontend/main.js"
   },
   "keywords": [],
